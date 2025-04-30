@@ -9,27 +9,21 @@ chip = "rp2040"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_6", "PIN_7", "PIN_8", "PIN_9"]
-output_pins = ["PIN_19", "PIN_20", "PIN_21"]
+input_pins = ["PIN_1"]
+output_pins = ["PIN_13"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 4
-cols = 3
+rows = 1
+cols = 1
 layers = 2
 keymap = [
     [
-        ["A", "B", "C"],
-        ["Kc1", "Kc2", "Kc3"],
-        ["LCtrl", "MO(1)", "LShift"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)"]
+        ["A"]
     ],
     [
-        ["_", "TT(1)", "TG(2)"],
-        ["_", "_", "_"],
-        ["_", "_", "_"],
-        ["_", "_", "_"]
+        ["_"]
     ],
 ]
 
