@@ -1,29 +1,33 @@
 # Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
 [keyboard]
-name = "RMK Keyboard"
-product_name = "RMK Keyboard"
+name = "TV board"
+product_name = "TV board"
 vendor_id = 0x4c4b
 product_id = 0x4643
-manufacturer = "haobo"
+manufacturer = "Vladdos"
 chip = "rp2040"
 
 [matrix]
 # Input and output pins are mandatory
-input_pins = ["PIN_1"]
+input_pins = ["PIN_1", "PIN_2", "PIN_3"]
 output_pins = ["PIN_13"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
 [layout]
-rows = 1
+rows = 3
 cols = 1
 layers = 2
 keymap = [
     [
-        ["A"]
+        ["A"],
+		["B"],
+		["C"]
     ],
     [
-        ["_"]
+        ["_"],
+		["_"],
+		["_"]
     ],
 ]
 
