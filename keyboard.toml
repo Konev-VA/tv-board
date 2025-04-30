@@ -17,41 +17,17 @@ output_pins = ["PIN_12", "PIN_13"]
 [layout]
 rows = 3
 cols = 2
-layers = 6
+layers = 2
 keymap = [
 	[
-		[
-			"A",
-			"B",
-			"C",
-		],
-		[
-			"1",
-			"2",
-			"3",
-		],
-		[
-			"-",
-			"-",
-			"-",
-		],
+		["A", "B"],
+		["1", "2"],
+		["-","-"]
 	],
 	[
-		[
-			"-",
-			"-",
-			"-",
-		],
-		[
-			"-",
-			"-",
-			"-",
-		],
-		[
-			"-",
-			"-",
-			"-",
-		],
+		["-","-"],
+		["-","-"],
+		["-","-"]
 	],
 ]
 
@@ -64,6 +40,7 @@ keymap = [
 # Just ignore if no light pin is used for it
 # numslock.pin = "PA5"
 # numslock.low_active = true
+
 
 
 [storage]
