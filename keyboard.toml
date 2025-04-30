@@ -16,7 +16,7 @@ output_pins = ["PIN_12", "PIN_13"]
 
 [layout]
 rows = 3
-cols = 1
+cols = 2
 layers = 2
 keymap = [
 	[
